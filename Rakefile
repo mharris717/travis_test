@@ -47,3 +47,9 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+task :print_env do
+  ENV.each do |k,v|
+    puts "#{k}: #{v}"
+  end
+end
