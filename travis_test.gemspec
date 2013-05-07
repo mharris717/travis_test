@@ -19,13 +19,17 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
+    ".travis.yml",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
     "lib/travis_test.rb",
     "spec/spec_helper.rb",
-    "spec/travis_test_spec.rb"
+    "spec/travis_test_spec.rb",
+    "travis_test.gemspec"
   ]
   s.homepage = "http://github.com/mharris717/travis_test"
   s.licenses = ["MIT"]
